@@ -6,4 +6,4 @@ This tool will measure code complexity in Java and C++ code due to the following
 <li>Recursion</li>
 </ul>
 
-This project will consists of a Java Desktop Application which will measure code complexity and save the calculated values to the database.
+This project will consists of a Java Desktop Application which will measure code complexity and save the calculated values and metadata to the database .
