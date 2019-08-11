@@ -1,0 +1,21 @@
+Line	Statement																	Cs Ctc Cnc Ci TW Cps Cr	   	    
+1 		public class FibonacciMain {              								--->
+2 		public static long fibonacci(long number) 								---> 4  0   0   1  1  4   8
+3 		if ((number == 0) || (number == 1)) {                                   ---> 8  2   1   1  4  32  64
+4 		return number;                                                          ---> 1  0   1   1  2  2   4                                                                      ---> 1  0   1   1  2  2   4
+5		}
+6 		else {
+7		// recursion step
+8 		return fibonacci(number - 1) + fibonacci(number - 2);                   ---> 9  0   1   1  2  18  36
+9		}
+10		}
+11		public static void main(String args[ ]) {                               ---> 4   0  0   1  1  4
+12		for (int count = 0; count <= 10; count++){                              ---> 10  2  1   1  4  40
+13		System.out.println("Fibonacci of " + count + " is " + fibonacci(count));---> 13  0  1    1 2  26
+14		}
+15		}
+16		}
+		
+		
+		
+Total Size Complexity = 198
